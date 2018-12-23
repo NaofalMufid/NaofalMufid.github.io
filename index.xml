@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kabut.en</title>
+    <link>https://NaofalMufid.github.io/</link>
+    <description>Recent content on Kabut.en</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Dec 2018 22:33:40 +0700</lastBuildDate>
+    
+	<atom:link href="https://NaofalMufid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Baru Nih</title>
+      <link>https://NaofalMufid.github.io/baru-nih/</link>
+      <pubDate>Sun, 23 Dec 2018 22:33:40 +0700</pubDate>
+      
+      <guid>https://NaofalMufid.github.io/baru-nih/</guid>
+      <description>Apa coba Tau nggak ? kalau ternyata</description>
+    </item>
+    
+  </channel>
+</rss>
