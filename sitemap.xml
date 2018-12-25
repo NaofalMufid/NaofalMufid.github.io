@@ -5,82 +5,62 @@
   <url>
     <loc>https://NaofalMufid.github.io/post/10-alat-cli-tercinta/</loc>
     <lastmod>2018-12-25T12:00:51+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/post/high-definition-data/</loc>
     <lastmod>2018-12-25T11:53:05+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/post/utf-8-di-http-header/</loc>
     <lastmod>2018-12-25T11:46:56+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/post/navigasi-terminal-pushd-popd/</loc>
     <lastmod>2018-12-25T11:35:36+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/post/berkontirusi-untuk-open-source/</loc>
     <lastmod>2018-12-25T11:25:50+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/post/19-tips-untuk-software-engineers-di-2019/</loc>
     <lastmod>2018-12-25T11:21:20+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/post/bisa-nih/</loc>
     <lastmod>2018-12-23T23:34:00+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/post/baru-nih/</loc>
     <lastmod>2018-12-23T22:33:40+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://NaofalMufid.github.io/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/</loc>
     <lastmod>2018-12-25T12:00:51+07:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/post/</loc>
     <lastmod>2018-12-25T12:00:51+07:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/tags/</loc>
-    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://NaofalMufid.github.io/tutorials/</loc>
     <priority>0</priority>
   </url>
   
