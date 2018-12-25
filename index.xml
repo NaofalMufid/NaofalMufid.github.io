@@ -6,6 +6,7 @@
     <description>Recent content on Kabut.en</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright 2018 kabut.en</copyright>
     <lastBuildDate>Sun, 23 Dec 2018 23:34:00 +0700</lastBuildDate>
     
 	<atom:link href="https://NaofalMufid.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -13,19 +14,19 @@
     
     <item>
       <title>Bisa Nih</title>
-      <link>https://NaofalMufid.github.io/bisa-nih/</link>
+      <link>https://NaofalMufid.github.io/post/bisa-nih/</link>
       <pubDate>Sun, 23 Dec 2018 23:34:00 +0700</pubDate>
       
-      <guid>https://NaofalMufid.github.io/bisa-nih/</guid>
+      <guid>https://NaofalMufid.github.io/post/bisa-nih/</guid>
       <description>Deploy Blog Hugo di Github Kebahagian ini akhirnya bisa diwujudkan pada waktu malam senin.</description>
     </item>
     
     <item>
       <title>Baru Nih</title>
-      <link>https://NaofalMufid.github.io/baru-nih/</link>
+      <link>https://NaofalMufid.github.io/post/baru-nih/</link>
       <pubDate>Sun, 23 Dec 2018 22:33:40 +0700</pubDate>
       
-      <guid>https://NaofalMufid.github.io/baru-nih/</guid>
+      <guid>https://NaofalMufid.github.io/post/baru-nih/</guid>
       <description>Apa coba Tau nggak ? kalau ternyata</description>
     </item>
     
