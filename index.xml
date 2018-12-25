@@ -7,10 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright 2018 kabut.en</copyright>
-    <lastBuildDate>Tue, 25 Dec 2018 11:35:36 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 25 Dec 2018 12:00:51 +0700</lastBuildDate>
     
 	<atom:link href="https://NaofalMufid.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>10 Alat Cli Tercinta</title>
+      <link>https://NaofalMufid.github.io/post/10-alat-cli-tercinta/</link>
+      <pubDate>Tue, 25 Dec 2018 12:00:51 +0700</pubDate>
+      
+      <guid>https://NaofalMufid.github.io/post/10-alat-cli-tercinta/</guid>
+      <description>Sebagai pengembang web, saya menggunakan Linux setiap hari. Saya ingin berbagi beberapa aplikasi CLI yang membantu saya meningkatkan produktivitas. Beberapa alat adalah alternatif yang lebih baik dari perintah yang ada, sementara yang lain menyediakan fitur yang sama sekali baru. Saya yakin Anda akan mencintai mereka.
+Semua perintah instal diuji di bawah Ubuntu 18.04.
+grep =&amp;gt; ack, ag ack dan ag adalah dua alat pencarian yang lebih baik daripada grep. Dengan ack atau ag, Anda tidak perlu mengetikkan opsi apa pun yang diperlukan oleh grep untuk mencari di bawah direktori yang diberikan.</description>
+    </item>
+    
+    <item>
+      <title>High Definition Data</title>
+      <link>https://NaofalMufid.github.io/post/high-definition-data/</link>
+      <pubDate>Tue, 25 Dec 2018 11:53:05 +0700</pubDate>
+      
+      <guid>https://NaofalMufid.github.io/post/high-definition-data/</guid>
+      <description>Klaim yang Dapat Diverifikasi adalah jenis baru sumber daya data dengan kualitas definisi tinggi. Ini adalah kelas informasi baru yang penting, karena data definisi tinggi memiliki sangat banyak aplikasi yang berguna di dunia digital yang dapat secara mendalam mengubah cara masyarakat beroperasi di dunia fisik. Ini adalah dasar untuk membangun jaringan kepercayaan, antara orang, mesin, dan informasi.
+Data yang ditangkap dalam format ini dapat memiliki resolusi tinggi dan kesetiaan yang tinggi.</description>
+    </item>
+    
+    <item>
+      <title>Utf 8 Di Http Header</title>
+      <link>https://NaofalMufid.github.io/post/utf-8-di-http-header/</link>
+      <pubDate>Tue, 25 Dec 2018 11:46:56 +0700</pubDate>
+      
+      <guid>https://NaofalMufid.github.io/post/utf-8-di-http-header/</guid>
+      <description>Ketika bekerja dengan UTF-8, kita dapat menggunakan pengkodean yang dijelaskan dalam RFC 6266 untuk &amp;ldquo;Content-Disposition&amp;rdquo; dan menerjemahkannya ke bahasa Latin dalam kasus lain.
+HTTP 1.1 adalah protokol hiperteks yang terkenal untuk transfer data. Pesan HTTP dikodekan dengan ISO-8859-1 (yang secara nominal dapat dianggap sebagai versi ASCII yang disempurnakan, berisi umlaut, diakritik dan karakter lain dari bahasa Eropa Barat). Pada saat yang sama, isi pesan dapat menggunakan pengodean lain yang ditugaskan di header &amp;ldquo;Tipe Konten&amp;rdquo;.</description>
+    </item>
     
     <item>
       <title>Navigasi Terminal Pushd Popd</title>

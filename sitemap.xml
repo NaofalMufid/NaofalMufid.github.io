@@ -3,6 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://NaofalMufid.github.io/post/10-alat-cli-tercinta/</loc>
+    <lastmod>2018-12-25T12:00:51+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://NaofalMufid.github.io/post/high-definition-data/</loc>
+    <lastmod>2018-12-25T11:53:05+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://NaofalMufid.github.io/post/utf-8-di-http-header/</loc>
+    <lastmod>2018-12-25T11:46:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://NaofalMufid.github.io/post/navigasi-terminal-pushd-popd/</loc>
     <lastmod>2018-12-25T11:35:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -45,14 +66,14 @@
   
   <url>
     <loc>https://NaofalMufid.github.io/</loc>
-    <lastmod>2018-12-25T11:35:36+07:00</lastmod>
+    <lastmod>2018-12-25T12:00:51+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/post/</loc>
-    <lastmod>2018-12-25T11:35:36+07:00</lastmod>
+    <lastmod>2018-12-25T12:00:51+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
