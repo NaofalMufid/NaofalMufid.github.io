@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Moh. Naofal Mufid</title>
+    <title>Kabut.en</title>
     <link>https://NaofalMufid.github.io/</link>
-    <description>Recent content on Moh. Naofal Mufid</description>
+    <description>Recent content on Kabut.en</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright 2018 kabut.en</copyright>
     <lastBuildDate>Tue, 25 Dec 2018 13:37:18 +0700</lastBuildDate>
     
 	<atom:link href="https://NaofalMufid.github.io/index.xml" rel="self" type="application/rss+xml" />
