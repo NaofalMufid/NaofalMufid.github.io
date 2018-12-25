@@ -7,10 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright 2018 kabut.en</copyright>
-    <lastBuildDate>Sun, 23 Dec 2018 23:34:00 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 25 Dec 2018 11:35:36 +0700</lastBuildDate>
     
 	<atom:link href="https://NaofalMufid.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Navigasi Terminal Pushd Popd</title>
+      <link>https://NaofalMufid.github.io/post/navigasi-terminal-pushd-popd/</link>
+      <pubDate>Tue, 25 Dec 2018 11:35:36 +0700</pubDate>
+      
+      <guid>https://NaofalMufid.github.io/post/navigasi-terminal-pushd-popd/</guid>
+      <description>Menavigasi Terminal melalui perintah pushd danpopd Dalam beberapa kasus yang jarang terjadi, setidaknya bagi saya, kita mungkin perlu mengubah ke direktori home pengguna kami, melalui cd ~, dan kemudian kembali ke apa yang kami lakukan di folder proyek. Masalahnya adalah bahwa kembali ke folder proyek kami mungkin berarti berjalan ke dalamnya.
+Untungnya, banyak sistem * nix datang dengan perintah pushd dan popd built-in (AFAIK), yang membangun dan menyimpan tumpukan direktori.</description>
+    </item>
+    
+    <item>
+      <title>Berkontirusi Untuk Open Source</title>
+      <link>https://NaofalMufid.github.io/post/berkontirusi-untuk-open-source/</link>
+      <pubDate>Tue, 25 Dec 2018 11:25:50 +0700</pubDate>
+      
+      <guid>https://NaofalMufid.github.io/post/berkontirusi-untuk-open-source/</guid>
+      <description>Bagaimana cara berkontribusi ke open source? Mekanisme Berkontribusi Berkontribusi ke open source dapat dilakukan dalam 4 langkah.
+ Temukan peluang Fork repositori Buat perubahan pada garpu Anda Kirim permintaan tarik 3 langkah pertama telah dibahas. Jika Anda tertarik pada mekanisme membuat permintaan tarik, Kent C. Dodds telah menciptakan http://makeapullrequest.com/.  Sayangnya, mekanisme mengirimkan permintaan tarik Anda adalah bagian yang mudah. Mereka sama tidak peduli siapa Anda atau proyek apa yang Anda beri kontribusi.</description>
+    </item>
+    
+    <item>
+      <title>19 Tips Untuk Software Engineers Di 2019</title>
+      <link>https://NaofalMufid.github.io/post/19-tips-untuk-software-engineers-di-2019/</link>
+      <pubDate>Tue, 25 Dec 2018 11:21:20 +0700</pubDate>
+      
+      <guid>https://NaofalMufid.github.io/post/19-tips-untuk-software-engineers-di-2019/</guid>
+      <description>Sudah hampir 2019 dan ada beberapa hal luar biasa yang muncul di dunia pemrograman. Tetapi bagi banyak pengembang baru, prospek terjun ke karier dalam bidang pengkodean bisa menakutkan.
+Ada begitu banyak teknologi untuk dipelajari dan begitu banyak bahasa untuk dipilih. Jadi, saya telah menyusun (tidak ada permainan kata-kata) daftar 19 tips untuk insinyur perangkat lunak pada tahun 2019.
+Happy coding 1. Jangan berkecil hati Industri teknologi adalah salah satu industri yang paling kuat dan fluktuatif di luar sana, dan ini bisa menjadi hal yang luar biasa.</description>
+    </item>
     
     <item>
       <title>Bisa Nih</title>

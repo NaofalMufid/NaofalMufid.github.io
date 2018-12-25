@@ -3,6 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://NaofalMufid.github.io/post/navigasi-terminal-pushd-popd/</loc>
+    <lastmod>2018-12-25T11:35:36+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://NaofalMufid.github.io/post/berkontirusi-untuk-open-source/</loc>
+    <lastmod>2018-12-25T11:25:50+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://NaofalMufid.github.io/post/19-tips-untuk-software-engineers-di-2019/</loc>
+    <lastmod>2018-12-25T11:21:20+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://NaofalMufid.github.io/post/bisa-nih/</loc>
     <lastmod>2018-12-23T23:34:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -24,14 +45,14 @@
   
   <url>
     <loc>https://NaofalMufid.github.io/</loc>
-    <lastmod>2018-12-23T23:34:00+07:00</lastmod>
+    <lastmod>2018-12-25T11:35:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/post/</loc>
-    <lastmod>2018-12-23T23:34:00+07:00</lastmod>
+    <lastmod>2018-12-25T11:35:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
