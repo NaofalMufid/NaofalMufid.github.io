@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="XN4YmHgE76jTp2kNQ9qnsVSApl6yIQBzdyLe0BnbFks" />
+
+  <title>
+    
+    
+    Misi Penaklukan Kutukan Jarkom - Kabut.en
+    
+  </title>
+  <link rel="shortcut icon" href="/favicon.ico" />
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/holder.min.js" type='text/javascript'></script>
+  <link rel="stylesheet" href="/highlight/styles/github-gist.css">  
+  <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="canonical" href="https://NaofalMufid.github.io/post/misi-penaklukan-kutukan-jarkom/">
+  
+  <script src="/highlight/highlight.pack.js" type='text/javascript'></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.3.0/highlightjs-line-numbers.min.js"></script>
+  <script type="text/javascript">
+
+    $(document).ready(function() {
+    
+    hljs.initHighlightingOnLoad();
+    $('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+    hljs.lineNumbersBlock(block);
+    });
+});
+  </script>
+   </head>
+   <body data-spy="scroll" data-target="#toc">
+     <header class="navbar navbar-default navbar-fixed-top" id="top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://NaofalMufid.github.io">Kabut.en</a>
+    </div>
+
+    
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+	
+	
+	<li  ><a href="/">Home</a></li>
+	
+	
+	
+	<li > <a href="https://NaofalMufid.github.io/about/" >About Me</a></li>
+	
+
+	
+
+	
+
+	
+
+      </ul>
+</nav>
+</header>
+
+     <div class="jumbotron masthead" role="main">
+       <div class="container">
+	 <div class="row">
+
+ 	   <div class="col-md-8 col-md-offset-2 ">
+	   
+<div class="panel panel-default">
+  <div class="panel-body">
+      <article id='post' >
+	<h1> Misi Penaklukan Kutukan Jarkom </h1>
+	  
+	  <span class="text-muted">Posted by:&nbsp;Thu Dec 27, 2018</span>
+
+	  
+
+<h1 id="mikrotik-hue-hue-hue-hue">Mikrotik hue hue hue hue</h1>
+
+<p>Sebentar lagi ujian Jarkom lanjut tiba dan akan mendapa ujian mengalahkan Ksatria sihir bernama <strong>Mikrotik</strong> dari negeri Bata.Yang perlu di waspadai dari sang Ksatria <strong>Mikrotik</strong> adalah <strong>dungeon</strong> berbahaya yang akan dilewati.</p>
+
+<ul>
+<li>Setting Router</li>
+<li>Mikrotik konek LAN (DHCP Server)</li>
+<li>Hotspot</li>
+<li>Setting Login Page</li>
+<li>Blokir Situs</li>
+<li>Setting Waktu</li>
+<li>Limit Bandwith</li>
+</ul>
+
+<h3 id="a-setting-router">a. Setting Router</h3>
+
+<p>Sihir yang harus dikeluarkan dalam membuka dungeon pertama.
+Anggap si <strong>Mikrotik</strong> sudah terhubung ke Internet lewat WAN(port:1). Dan anda sebagai ksatria sihir dianggap kenal dengan WinBox.</p>
+
+<ol>
+<li>Koneksikan kabel LAN di port:2 ke Laptop/PC.</li>
+<li>Buka winbox seperti biasanya, masuk ke menu <strong>IP -&gt; DHCP-Client -&gt; +</strong>.</li>
+<li>Isi yang pas, tes di CMD pake <em>ping google.com</em> misal.</li>
+</ol>
+
+<h3 id="b-mikrotik-konek-lan-dhcp-server">b. Mikrotik konek LAN (DHCP Server)</h3>
+
+<p>Sihir untuk menyelesaikan dungeon ini lumayan sulit.
+Masih dengan alat sihir <strong>winbox</strong></p>
+
+<ol>
+<li>Buka menu <strong>IP -&gt; Address -&gt; Masukan IP(ex:192.168.10.<sup>1</sup>&frasl;<sub>24</sub>)</strong></li>
+<li><strong>IP -&gt; DHCP Server -&gt; DHCP Setup</strong></li>
+<li><strong>IP -&gt; Firewall -&gt; NAT -&gt; action:masquared</strong> -&gt; disable -&gt; enable LAN pc/laptop</li>
+<li>Ping google.com di cmd</li>
+</ol>
+
+<h3 id="c-hotspot">c. Hotspot</h3>
+
+<p>Agar sihir kita terpancar di dungeon menengah. Sihir kelas rendah bisa saja menembus dinding pengahalang.</p>
+
+<ol>
+<li>Biasa aja buka menu <strong>IP -&gt; Address -&gt; New -&gt; IP(ex:192.168.20.<sup>1</sup>&frasl;<sub>24</sub>)</strong> # interface pilih (WLAN)</li>
+<li><strong>Wireless -&gt; klik centang -&gt; interface -&gt; mode AP Bridge</strong></li>
+<li><strong>IP -&gt; Hotspot -&gt; Hotspot Setup</strong></li>
+<li>Seting user : <strong>IP -&gt; Hotspot -&gt; user -&gt; +</strong> dan <strong>IP -&gt; Hotspot -&gt; user profiles</strong></li>
+</ol>
+
+<h3 id="d-setting-login-page">d. Setting Login Page</h3>
+
+<p>Dungeon paling indah dalam misi kali ini.
+Mantra sihir yang digunakan
+<em>&ldquo;IP -&gt; Hotspot -&gt; Server Profile -&gt; pilih yang sedang aktif -&gt; Tab menu General -&gt; Files -&gt; paste (dari themes yang anda punya).&rdquo;</em></p>
+
+<ol>
+<li>IP -&gt; Hotspot -&gt; Server Profile -&gt; pilih yang sedang aktif -&gt; Tab menu General -&gt; Html directory -&gt; ganti sesuai nama folder template</li>
+</ol>
+
+<h3 id="e-blokir-situs">e. Blokir Situs</h3>
+
+<p>Pengguna sihir tingkat tinggi sangat dibutuhkan</p>
+
+<ol>
+<li>IP -&gt; Firewall -&gt; NAT -&gt;</li>
+<li>action : drop, chain : forward, address list : IP addressnya berapa, content : situs yang diblok.</li>
+</ol>
+
+<p>hati-hati banyak pengguna sihir tingkat tinggi terjebak di dungeon ini.</p>
+
+<h3 id="f-setting-waktu">f. Setting Waktu</h3>
+
+<ol>
+<li>System -&gt; SNTP Client -&gt; enable -&gt; primary NTP(copy dari ntp client mikrotik indonesia di gugel)</li>
+<li>Address list</li>
+<li>Layer -&gt; properties -&gt; src.addrees</li>
+</ol>
+
+<p>dan ksatria sihir lengah lagi dalam dungeon gelap ini.</p>
+
+<h3 id="g-limit-bandwith">g. Limit Bandwith</h3>
+
+<p>Dungeon bercahaya yang menuntuk ke jalan tikungan yang lurus.</p>
+
+<ol>
+<li>Hotspot -&gt; user profile -&gt; cari aja rate limit
+ok dokey kalau nyasar bilang dong.</li>
+</ol>
+
+<p>Misi dalam penaklukan Ksatria <strong>Mikrotik</strong> masih panjang akan tetapi beberapa ksatria sihir gugur dan kembali ke markas untuk menyiapkan kstaria sihir hebat lainya. <strong>Selamat belajar dan jangan makan sembarangan</strong></p>
+
+
+	  
+	  	  <div class="tags">	
+	    <p class="categories">
+	  
+	    </p>
+	    
+
+	    	  </div>
+	    
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "valnovcc" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+      </div></article>
+
+
+	 </div>
+
+	 </div>
+       </div>
+     </div>
+
+ <div class="container footer">
+  <div class="row">
+    <div class="col-md-10">
+      <small class="text-muted">Copyright 2018 kabut.en Theme:<a href="https://leonhe.me/">eiio</a></small>
+    </div>
+    <div class="col-md-2">
+      <small class="text-muted">Hati Sutji</small>
+      </div>
+   </div>
+ </div>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'US-XXXXXX-XX', 'auto');
+ga('send', 'pageview');
+</script>
+
+</body></html>

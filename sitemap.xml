@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://NaofalMufid.github.io/post/misi-penaklukan-kutukan-jarkom/</loc>
+    <lastmod>2018-12-27T07:18:11+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://NaofalMufid.github.io/about/</loc>
     <lastmod>2018-12-25T13:37:18+07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -73,14 +80,14 @@
   
   <url>
     <loc>https://NaofalMufid.github.io/</loc>
-    <lastmod>2018-12-25T13:37:18+07:00</lastmod>
+    <lastmod>2018-12-27T07:18:11+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://NaofalMufid.github.io/post/</loc>
-    <lastmod>2018-12-25T12:00:51+07:00</lastmod>
+    <lastmod>2018-12-27T07:18:11+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
