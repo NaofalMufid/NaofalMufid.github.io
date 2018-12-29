@@ -107,8 +107,16 @@
 Anggap si <strong>Mikrotik</strong> sudah terhubung ke Internet lewat WAN(port:1). Dan anda sebagai ksatria sihir dianggap kenal dengan WinBox.</p>
 
 <ol>
+<li>Koneksikan Mikrotik dengan AP(akses internet) dengan menghubungkanya dengan LAN diport WAN</li>
 <li>Koneksikan kabel LAN di port:2 ke Laptop/PC.</li>
-<li>Buka winbox seperti biasanya, masuk ke menu <strong>IP -&gt; DHCP-Client -&gt; +</strong>.</li>
+<li>Seting interface (biar mudah)
+
+<ul>
+<li>ether1 dinamai internet</li>
+<li>ether2 dinamai lan</li>
+<li>biarin yang wlan gitu aja atau dihidupin dmenu wireless</li>
+</ul></li>
+<li>Buka winbox seperti biasanya, masuk ke menu <strong>IP -&gt; DHCP-Client -&gt; + -&gt; pilih ang ether1 -&gt; sampai nanti ada tulisan bound di itunya</strong>.</li>
 <li>Isi yang pas, tes di CMD pake <em>ping google.com</em> misal.</li>
 </ol>
 
@@ -118,8 +126,8 @@ Anggap si <strong>Mikrotik</strong> sudah terhubung ke Internet lewat WAN(port:1
 Masih dengan alat sihir <strong>winbox</strong></p>
 
 <ol>
-<li>Buka menu <strong>IP -&gt; Address -&gt; Masukan IP(ex:192.168.10.<sup>1</sup>&frasl;<sub>24</sub>)</strong></li>
-<li><strong>IP -&gt; DHCP Server -&gt; DHCP Setup</strong></li>
+<li>Buka menu <strong>IP -&gt; Address -&gt; Masukan IP(ex:192.168.10.<sup>1</sup>&frasl;<sub>24</sub> pilih <em>interface ether2 LAN</em> untuk antar pc dengan LAN, 192.168.5.<sup>1</sup>&frasl;<sub>24</sub> *interface wlan*untuk pengguna hotspot)</strong></li>
+<li><strong>IP -&gt; DHCP Server -&gt; DHCP Setup -&gt; pilih yang ether2</strong></li>
 <li><strong>IP -&gt; Firewall -&gt; NAT -&gt; action:masquared</strong> -&gt; disable -&gt; enable LAN pc/laptop</li>
 <li>Ping google.com di cmd</li>
 </ol>
@@ -129,20 +137,20 @@ Masih dengan alat sihir <strong>winbox</strong></p>
 <p>Agar sihir kita terpancar di dungeon menengah. Sihir kelas rendah bisa saja menembus dinding pengahalang.</p>
 
 <ol>
-<li>Biasa aja buka menu <strong>IP -&gt; Address -&gt; New -&gt; IP(ex:192.168.20.<sup>1</sup>&frasl;<sub>24</sub>)</strong> # interface pilih (WLAN)</li>
-<li><strong>Wireless -&gt; klik centang -&gt; interface -&gt; mode AP Bridge</strong></li>
+<li><strong>IP Address tadi disetting di step b nomor 1</strong></li>
+<li><strong>Wireless -&gt; klik centang agar wlan aktif -&gt; double klik wlan -&gt; station:AP Bridge, ssid:namawifi</strong></li>
 <li><strong>IP -&gt; Hotspot -&gt; Hotspot Setup</strong></li>
-<li>Seting user : <strong>IP -&gt; Hotspot -&gt; user -&gt; +</strong> dan <strong>IP -&gt; Hotspot -&gt; user profiles</strong></li>
+<li>Seting user : <strong>IP -&gt; Hotspot -&gt; user -&gt; + (untuk nambah user misal)</strong> dan <strong>IP -&gt; Hotspot -&gt; user profiles(pengaturan user sperti limit kecepatan,user a bisa digunakan berapa)</strong></li>
 </ol>
 
 <h3 id="d-setting-login-page">d. Setting Login Page</h3>
 
 <p>Dungeon paling indah dalam misi kali ini.
 Mantra sihir yang digunakan
-<em>&ldquo;IP -&gt; Hotspot -&gt; Server Profile -&gt; pilih yang sedang aktif -&gt; Tab menu General -&gt; Files -&gt; paste (dari themes yang anda punya).&rdquo;</em></p>
+<em>&ldquo;Files -&gt; paste (dari themes yang anda punya).&rdquo;</em></p>
 
 <ol>
-<li>IP -&gt; Hotspot -&gt; Server Profile -&gt; pilih yang sedang aktif -&gt; Tab menu General -&gt; Html directory -&gt; ganti sesuai nama folder template</li>
+<li>IP -&gt; Hotspot -&gt; Server Profile -&gt; pilih yang sedang aktif -&gt; Tab menu General -&gt; Html directory -&gt; pilih yang theme tadi yang di pastekan di files</li>
 </ol>
 
 <h3 id="e-blokir-situs">e. Blokir Situs</h3>
@@ -151,7 +159,16 @@ Mantra sihir yang digunakan
 
 <ol>
 <li>IP -&gt; Firewall -&gt; NAT -&gt;</li>
-<li>action : drop, chain : forward, address list : IP addressnya berapa, content : situs yang diblok.</li>
+
+<li><p>action : drop, chain : forward, address list : IP addressnya berapa, content : situs yang diblok.</p>
+
+<h2 id="itu-kadang-nggak-jadi-ini-aja">Itu kadang nggak jadi ini aja</h2>
+
+<ul>
+<li>New terminal ketik : <strong>ip firewall filter</strong> tekan enter</li>
+<li>ketik : <strong>add action=drop chain=forward content=namasitus.com src-address=192.168.5.<sup>1</sup>&frasl;<sub>24</sub></strong></li>
+<li>keterangana content=gugel.com(di isi nama situs yang akan diblokir), src-address=ip yang akan terdampak blokir, misal kasus ini tadi setting ip di step b nomor 1 ip hotspot kan 192.168.5.<sup>1</sup>&frasl;<sub>24</sub> berarti nanti pengguna hotspot tidak bisa akses gugel.com. kalau lan berarti yang masukin aja ip lan.</li>
+</ul></li>
 </ol>
 
 <p>hati-hati banyak pengguna sihir tingkat tinggi terjebak di dungeon ini.</p>
